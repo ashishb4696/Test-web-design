@@ -259,7 +259,7 @@ nav {
   height: 52px;
 }
 
-.client-information h {
+.client-information h4 {
   font-weight: 700;
   font-size: 18px;
   line-height: 28px;
@@ -349,9 +349,9 @@ nav {
   gap: 20px;
 }
 
-.footer-list-1 h,
-.footer-list-2 h,
-.footer-list-3 h {
+.footer-list-1 h3,
+.footer-list-2 h3,
+.footer-list-3 h3 {
   width: 160px;
   height: 30px;
   font-weight: 500;
@@ -437,7 +437,7 @@ span.font-nanum.new-feature {
 
 
 /* Responsive design for Extra small devices (phones, 600px and down) */
- 
+
 
 @media (max-width: 600px) {
 
@@ -451,7 +451,7 @@ nav{
 .company-logo{
   padding-left: 0;
 }
-  
+
   .menu {
     margin: 0;
     gap: 6px;
@@ -510,7 +510,7 @@ nav{
     top: 453px;
   }
 
- 
+
 
   .mask-image svg{
     width: 275px;
@@ -918,7 +918,7 @@ nav{
   .footer-list {
     height: auto;
     padding: 50px 25px;
-    
+
   }
 
   .sub-footer {
@@ -944,7 +944,7 @@ nav{
     padding: 0;
     margin: 0;
   }
-  
+
   .hero{
    padding: 100px 100px;
    height: 650px;
@@ -953,7 +953,7 @@ nav{
   .mobile-screenshot{
     margin-top: 40px;
   }
-  
+
   .iphonex-image{
     top: 65px;
    }
@@ -1006,13 +1006,13 @@ nav{
     height: 220px;
     padding: 50px 250px;
   }
-    
+
   .cta h2{
     height: 125px;
     font-size: 44px;
     line-height: 62px;
   }
-    
+
   .site-footer{
     padding: 0;
     height: 450px;
@@ -1057,7 +1057,7 @@ nav{
     padding: 0;
     box-shadow: 0 1px 0 0 #e5e9f2;
   }
-  
+
   .menu {
     display: flex;
     gap: 32px;
@@ -1067,18 +1067,18 @@ nav{
     line-height: 20px;
     margin-left: 210px;
   }
-  
+
   .company-logo {
     padding-left: 165px;
     height: 28px;
     display: flex;
     gap: 10px;
   }
-  
+
   .logo {
     height: 28px;
   }
-  
+
   .company-name {
     height: 18.49px;
     color: #0b0d17;
@@ -1087,23 +1087,23 @@ nav{
     align-items: center;
     padding-top: 3px;
   }
-  
+
   .company-logo ul {
     display: flex;
     gap: 10px;
   }
-  
+
   .company-logo li,
   .menu li {
     list-style-type: none;
   }
-  
+
   .company-logo li a,
   .menu li a {
     text-decoration: none;
     color: #0b0d17;
   }
-  
+
   nav .nav-button {
     font-weight: 500;
     font-size: 14px;
@@ -1116,9 +1116,9 @@ nav{
     margin-bottom: 0;
     margin-right: 160px;
   }
-  
+
   /* Navigation ends */
-  
+
   .hero {
     height: 695px;
     padding: 0;
@@ -1130,7 +1130,7 @@ nav{
     overflow: hidden;
     position: relative;
   }
-  
+
   .hero-header {
     height: 276px;
     gap: 32px;
@@ -1138,14 +1138,14 @@ nav{
     flex-direction: column;
     text-align: center;
   }
-  
+
   .hero-header h1 {
     font-size: 72px;
     height: 196px;
     font-weight: 800;
     line-height: 98px;
   }
-  
+
   .hero-button {
     padding: 12px 32px;
     align-self: center;
@@ -1157,7 +1157,7 @@ nav{
     background-color: #ed5e31;
     cursor: pointer;
   }
-  
+
   .mobile-screenshot {
     display: flex;
     flex-direction: column;
@@ -1165,7 +1165,7 @@ nav{
     padding-top: 100px;
     margin: 0;
   }
-  
+
   .iphonex-image {
     position: relative;
     z-index: 3;
@@ -1189,7 +1189,7 @@ nav{
   .mask-image {
     position: absolute;
     z-index: 1;
-    bottom: -7px; 
+    bottom: -7px;
   }
 
   .mask-image{
@@ -1200,18 +1200,18 @@ nav{
     padding: 64px 165px 64px 165px;
     margin: 0;
   }
-  
+
   .feature-heading {
     height: 64px;
     margin-top: 36px;
   }
-  
+
   .feature-heading h2 {
     font-weight: 800;
     font-size: 48px;
     line-height: 64px;
   }
-  
+
   .features-list {
     height: 192px;
     display: flex;
@@ -1219,7 +1219,7 @@ nav{
     gap: 30px;
     margin-top: 48px;
   }
-  
+
   .feature-list-1,
   .feature-list-2,
   .feature-list-3 {
@@ -1229,25 +1229,25 @@ nav{
     border-radius: 8px;
     gap: 24px;
   }
-  
+
   .feature-details {
     display: flex;
     flex-direction: column;
     gap: 8px;
   }
-  
+
   .feature-details h3 {
     font-weight: 600;
     font-size: 24px;
     line-height: 32px;
   }
-  
+
   .feature-details p {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
   }
-  
+
   .know-more,
   .know-more-purple {
     width: 104px;
@@ -1256,12 +1256,12 @@ nav{
     gap: 8px;
     text-align: center;
   }
-  
+
   .know-more li,
   .know-more-purple li {
     list-style-type: none;
   }
-  
+
   .know-more a {
     text-decoration: none;
     color: #f2994a;
@@ -1269,22 +1269,22 @@ nav{
     font-size: 14px;
     line-height: 20px;
   }
-  
+
   .know-more-purple a {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
   }
-  
+
   .rightarrow-icon {
     padding-top: 3px;
   }
-  
+
   .rightarrow-purple-icon {
     padding-top: 4px;
   }
-  
+
   .testimonial {
     height: 184px;
     padding: 64px 165px;
@@ -1292,7 +1292,7 @@ nav{
     gap: 30px;
     margin-top: 48px;
   }
-  
+
   .client-detail {
     width: 255px;
     height: 56px;
@@ -1300,40 +1300,40 @@ nav{
     gap: 16px;
     align-self: flex-end;
   }
-  
+
   .client-image {
     border-radius: 50%;
   }
-  
+
   .client-information {
     width: 183px;
     height: 52px;
   }
-  
+
   .client-information h {
     font-weight: 700;
     font-size: 18px;
     line-height: 28px;
   }
-  
+
   .client-information p {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
   }
-  
+
   .testimonial-content {
     height: 184px;
     display: flex;
   }
-  
+
   .testimonial-icon {
     width: 46px;
     height: 98px;
     padding: 0px 8px 0px 8px;
     margin-top: 10px;
   }
-  
+
   .testimonial-feedback {
     height: 160px;
     font-weight: 400;
@@ -1342,7 +1342,7 @@ nav{
     padding-left: 10px;
     padding-top: 20px;
   }
-  
+
   .cta {
     height: 230px;
     padding: 64px 340px;
@@ -1350,7 +1350,7 @@ nav{
     flex-direction: column;
     gap: 40px;
   }
-  
+
   .cta h2 {
     height: 155px;
     font-weight: 800;
@@ -1358,7 +1358,7 @@ nav{
     line-height: 64px;
     text-align: center;
   }
-  
+
   .cta button {
     padding: 12px 32px;
     align-self: center;
@@ -1372,26 +1372,26 @@ nav{
     border: 1px solid #ed5e31;
     cursor: pointer;
   }
-  
+
   .site-footer {
     height: 434px;
     background-color: #0b0d17;
   }
-  
+
   .site-footer .company-logo {
     width: 120px;
     height: 28px;
     padding-top: 24px;
     padding-left: 165px;
     }
-  
+
   .footer-list {
     height: 240px;
     display: flex;
     gap: 30px;
     padding-left: 660px;
   }
-  
+
   .footer-list-1,
   .footer-list-2,
   .footer-list-3 {
@@ -1401,7 +1401,7 @@ nav{
     flex-direction: column;
     gap: 20px;
   }
-  
+
   .footer-list-1 h,
   .footer-list-2 h,
   .footer-list-3 h {
@@ -1412,20 +1412,20 @@ nav{
     line-height: 30px;
     color: #f4f5f7;
   }
-  
+
   .footer-list-1 a,
   .footer-list-2 a,
   .footer-list-3 a {
     text-decoration: none;
     color: #eeeff4;
   }
-  
+
   .footer-list-1 ul,
   .footer-list-2 ul,
   .footer-list-3 ul {
     list-style-type: none;
   }
-  
+
   .footer-list-1 li,
   .footer-list-2 li,
   .footer-list-3 li {
@@ -1434,14 +1434,14 @@ nav{
     line-height: 26px;
     padding-top: 12px;
   }
-  
+
   a.design {
     display: flex;
     gap: 8px;
     width: 102px;
     height: 26px;
   }
-  
+
   span.font-nanum.new-feature {
     font-family: "Nanum Pen Script", cursive;
     font-weight: 400;
@@ -1452,7 +1452,7 @@ nav{
     width: 27px;
     height: 24px;
   }
-  
+
   .sub-footer {
     height: 64px;
     margin-top: 100px;
@@ -1462,7 +1462,7 @@ nav{
     background-blend-mode: multiply;
     justify-content: flex-start;
   }
-  
+
   .sub-footer p {
     height: 24px;
     font-weight: 400;
@@ -1471,7 +1471,7 @@ nav{
     color: #d9dbe1;
     padding-left: 165px;
    }
-  
+
   .socialmedia-links {
     width: 144px;
     height: 24px;
@@ -1479,7 +1479,7 @@ nav{
     gap: 24px;
     padding-left: 550px;
   }
-  
+
   .socialmedia-instagram,
   .socialmedia-dribble,
   .socialmedia-youtube,
@@ -1488,7 +1488,7 @@ nav{
     height: 24px;
     background-color: rgba(255, 255, 255, 0.1);
   }
-  
+
 }
 
 /* Responsive Design for 1400px and above */
@@ -1501,7 +1501,7 @@ nav{
     align-items: center;
     box-shadow: 0 1px 0 0 #e5e9f2;
   }
-  
+
   .menu {
     display: flex;
     gap: 32px;
@@ -1511,18 +1511,18 @@ nav{
     line-height: 20px;
     margin-left: 210px;
   }
-  
+
   .company-logo {
     padding-left: 165px;
     height: 28px;
     display: flex;
     gap: 10px;
   }
-  
+
   .logo {
     height: 28px;
   }
-  
+
   .company-name {
     height: 18.49px;
     color: #0b0d17;
@@ -1531,23 +1531,23 @@ nav{
     align-items: center;
     padding-top: 3px;
   }
-  
+
   .company-logo ul {
     display: flex;
     gap: 10px;
   }
-  
+
   .company-logo li,
   .menu li {
     list-style-type: none;
   }
-  
+
   .company-logo li a,
   .menu li a {
     text-decoration: none;
     color: #0b0d17;
   }
-  
+
   .nav-button {
     font-weight: 500;
     font-size: 14px;
@@ -1560,9 +1560,9 @@ nav{
     margin-right: 180px;
     cursor: pointer;
   }
-  
+
   /* Navigation ends */
-  
+
   .hero {
     height: 695px;
     padding-top: 165px;
@@ -1571,7 +1571,7 @@ nav{
     overflow: hidden;
     position: relative;
   }
-  
+
   .hero-header {
     height: 276px;
     gap: 32px;
@@ -1579,14 +1579,14 @@ nav{
     flex-direction: column;
     text-align: center;
   }
-  
+
   .hero-header h1 {
     font-size: 72px;
     height: 196px;
     font-weight: 800;
     line-height: 98px;
   }
-  
+
   .hero-button {
     padding: 12px 32px;
     align-self: center;
@@ -1597,25 +1597,25 @@ nav{
     border: 1px solid #ed5e31;
     background-color: #ed5e31;
   }
-  
+
   .mobile-screenshot {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 100px;
   }
-  
+
   .iphonex-image {
     position: relative;
     z-index: 3;
   }
-  
+
   .screen-image {
     position: absolute;
     z-index: 2;
     top: 555px;
   }
-  
+
   .mask-image {
     position: absolute;
     bottom: -7px;
@@ -1633,25 +1633,25 @@ nav{
     height: 304px;
     padding: 64px 165px 64px 165px;
   }
-  
+
   .feature-heading {
     height: 64px;
     margin-top: 36px;
   }
-  
+
   .feature-heading h2 {
     font-weight: 800;
     font-size: 48px;
     line-height: 64px;
   }
-  
+
   .features-list {
    height: 192px;
     display: flex;
     gap: 30px;
     margin-top: 48px;
   }
-  
+
   .feature-list-1,
   .feature-list-2,
   .feature-list-3 {
@@ -1662,25 +1662,25 @@ nav{
     border-radius: 8px;
     gap: 24px;
   }
-  
+
   .feature-details {
     display: flex;
     flex-direction: column;
     gap: 8px;
   }
-  
+
   .feature-details h3 {
     font-weight: 600;
     font-size: 24px;
     line-height: 32px;
   }
-  
+
   .feature-details p {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
   }
-  
+
   .know-more,
   .know-more-purple {
     width: 104px;
@@ -1689,12 +1689,12 @@ nav{
     gap: 8px;
     text-align: center;
   }
-  
+
   .know-more li,
   .know-more-purple li {
     list-style-type: none;
   }
-  
+
   .know-more a {
     text-decoration: none;
     color: #f2994a;
@@ -1702,22 +1702,22 @@ nav{
     font-size: 14px;
     line-height: 20px;
   }
-  
+
   .know-more-purple a {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
   }
-  
+
   .rightarrow-icon {
     padding-top: 3px;
   }
-  
+
   .rightarrow-purple-icon {
     padding-top: 4px;
   }
-  
+
   .testimonial {
     height: 184px;
     padding: 64px 165px;
@@ -1725,7 +1725,7 @@ nav{
     gap: 30px;
     margin-top: 48px;
   }
-  
+
   .client-detail {
     width: 255px;
     height: 56px;
@@ -1733,40 +1733,40 @@ nav{
     gap: 16px;
     align-self: flex-end;
   }
-  
+
   .client-image {
     border-radius: 50%;
   }
-  
+
   .client-information {
     width: 183px;
     height: 52px;
   }
-  
+
   .client-information h {
     font-weight: 700;
     font-size: 18px;
     line-height: 28px;
   }
-  
+
   .client-information p {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
   }
-  
+
   .testimonial-content {
     height: 184px;
     display: flex;
   }
-  
+
   .testimonial-icon {
     width: 46px;
     height: 98px;
     padding: 0px 8px 0px 8px;
     margin-top: 10px;
   }
-  
+
   .testimonial-feedback {
     height: 160px;
     font-weight: 400;
@@ -1775,7 +1775,7 @@ nav{
     padding-left: 10px;
     padding-top: 20px;
   }
-  
+
   .cta {
     height: 216px;
     padding: 64px 355px;
@@ -1783,7 +1783,7 @@ nav{
     flex-direction: column;
     gap: 40px;
   }
-  
+
   .cta h2 {
     height: 128px;
     font-weight: 800;
@@ -1791,7 +1791,7 @@ nav{
     line-height: 64px;
     text-align: center;
   }
-  
+
   .cta button {
     padding: 12px 32px;
     align-self: center;
@@ -1804,25 +1804,25 @@ nav{
     border-radius: 6px;
     border: 1px solid #ed5e31;
   }
-  
+
   .site-footer {
     height: 434px;
     background-color: #0b0d17;
   }
-  
+
   .site-footer .company-logo {
     width: 120px;
     height: 28px;
     padding-top: 24px;
   }
-  
+
   .footer-list {
     height: 240px;
     display: flex;
     gap: 30px;
     padding-left: 735px;
   }
-  
+
   .footer-list-1,
   .footer-list-2,
   .footer-list-3 {
@@ -1832,7 +1832,7 @@ nav{
     flex-direction: column;
     gap: 20px;
   }
-  
+
   .footer-list-1 h,
   .footer-list-2 h,
   .footer-list-3 h {
@@ -1843,20 +1843,20 @@ nav{
     line-height: 30px;
     color: #f4f5f7;
   }
-  
+
   .footer-list-1 a,
   .footer-list-2 a,
   .footer-list-3 a {
     text-decoration: none;
     color: #eeeff4;
   }
-  
+
   .footer-list-1 ul,
   .footer-list-2 ul,
   .footer-list-3 ul {
     list-style-type: none;
   }
-  
+
   .footer-list-1 li,
   .footer-list-2 li,
   .footer-list-3 li {
@@ -1865,14 +1865,14 @@ nav{
     line-height: 26px;
     padding-top: 12px;
   }
-  
+
   a.design {
     display: flex;
     gap: 8px;
     width: 102px;
     height: 26px;
   }
-  
+
   span.font-nanum.new-feature {
     font-family: "Nanum Pen Script", cursive;
     font-weight: 400;
@@ -1883,7 +1883,7 @@ nav{
     width: 27px;
     height: 24px;
   }
-  
+
   .sub-footer {
     height: 64px;
     margin-top: 100px;
@@ -1892,7 +1892,7 @@ nav{
     background-color: #0b0d17;
     background-blend-mode: multiply;
   }
-  
+
   .sub-footer p {
     height: 24px;
     padding-left: 165px;
@@ -1901,7 +1901,7 @@ nav{
     line-height: 24px;
     color: #d9dbe1;
   }
-  
+
   .socialmedia-links {
     width: 144px;
     height: 24px;
@@ -1909,7 +1909,7 @@ nav{
     gap: 24px;
     padding-left: 635px;
   }
-  
+
   .socialmedia-instagram,
   .socialmedia-dribble,
   .socialmedia-youtube,
@@ -1918,6 +1918,5 @@ nav{
     height: 24px;
     background-color: rgba(255, 255, 255, 0.1);
   }
-  
+
 }
- 
