@@ -574,7 +574,7 @@ nav{
   }
 
   .site-footer {
-    height: 950px;
+    height: 865px;
     padding: 20px 30px;
   }
 
@@ -582,21 +582,34 @@ nav{
     padding: 20px 30px;
     height: 700px;
     flex-flow: wrap;
-    justify-content: center;
-    gap: 6px;
+    gap: 0px;
   }
 
   .sub-footer {
     padding-left: 10px;
     gap: 10px;
     flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .site-footer .company-logo{
+    padding-left: 40px;
+  }
+
+  .footer-list-1{
+    padding-top: 10px;
   }
 
   .footer-list-1,
   .footer-list-2,
   .footer-list-3 {
-    padding: 10px;
+    padding-left: 10px;
     max-width: 280px;
+    gap: 6px;
+  }
+
+  .footer-list-1 li, .footer-list-2 li, .footer-list-3 li{
+    padding-top: 8px;
   }
 
   .socialmedia-links {
@@ -761,20 +774,15 @@ nav{
     padding-left: 70px;
   }
 
- 
-
   .footer-list {
     padding: 50px 70px;
   }
-
-  
 
   .sub-footer {
     width: 100%;
     margin: 0;
     gap: 60px;
   }
-
 
   .sub-footer p {
     padding-left: 70px;
@@ -902,12 +910,22 @@ nav{
     padding: 50px 100px 0px 100px;
   }
 
+  .site-footer .company-logo{
+    justify-content: center;
+    justify-self: center;
+  }
+
   .footer-list {
     height: auto;
+    padding: 50px 25px;
+    
   }
 
   .sub-footer {
-    justify-content: space-between;
+    justify-content: space-around;
+  }
+  .sub-footer p{
+    padding: 0;
   }
 }
 
@@ -1000,6 +1018,7 @@ nav{
     height: 450px;
    }
 
+
   .footer-list{
     padding: 0;
     padding-left: 380px;
@@ -1008,6 +1027,8 @@ nav{
 
   .site-footer .company-logo{
     padding-left: 100px;
+    justify-content: flex-start;
+    justify-self: flex-start;
   }
 
   .sub-footer{
