@@ -11,8 +11,6 @@ body {
   color: #18191f;
 }
 
-
-
 /* Navigation starts */
 
 nav {
@@ -129,13 +127,14 @@ nav {
 .iphonex-image {
   position: relative;
   z-index: 3;
+  box-shadow: 10px 15px 30px 0px rgba(41, 41, 42, 0.5);
+  border-radius: 50px;
 }
 
 .screen-image {
   position: absolute;
   z-index: 2;
   top: 555px;
-  box-shadow: 10px 15px 30px 0px rgba(41, 41, 42, 0.5);
 }
 
 .mask-image {
@@ -161,7 +160,6 @@ nav {
 }
 
 .features-list {
-
   height: 192px;
   display: flex;
   gap: 30px;
@@ -325,6 +323,9 @@ nav {
   height: 434px;
   background-color: #0b0d17;
 }
+.footer-logo {
+  background-color: red;
+}
 
 .site-footer .company-logo {
   width: 120px;
@@ -435,33 +436,30 @@ span.font-nanum.new-feature {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-
 /* Responsive design for Extra small devices (phones, 600px and down) */
 
-
 @media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    height: 100px;
+    justify-content: center;
+    gap: 6px;
+  }
 
-nav{
-  flex-direction: column;
-  height: 100px;
-  justify-content: center;
-  gap: 6px;
-}
-
-.company-logo{
-  padding-left: 0;
-}
+  .company-logo {
+    padding-left: 0;
+  }
 
   .menu {
     margin: 0;
     gap: 6px;
   }
 
-  .menu a{
+  .menu a {
     font-size: 11px;
   }
 
-  .nav-button{
+  .nav-button {
     margin: 0;
     padding: 4px 8px;
   }
@@ -486,7 +484,7 @@ nav{
     line-height: 56px;
   }
 
-  .hero-button{
+  .hero-button {
     padding: 6px 8px;
   }
 
@@ -494,15 +492,15 @@ nav{
     padding: 0;
   }
 
-  .iphonex-image{
+  .iphonex-image {
     top: 76px;
   }
 
-  .iphonex-image img{
+  .iphonex-image img {
     width: 115px;
-   }
+  }
 
-  .screen-image img{
+  .screen-image img {
     width: 103px;
   }
 
@@ -510,24 +508,22 @@ nav{
     top: 453px;
   }
 
-
-
-  .mask-image svg{
+  .mask-image svg {
     width: 275px;
     height: 70px;
-   }
+  }
 
-  .company-feature{
+  .company-feature {
     height: 850px;
     padding: 30px 50px;
   }
 
-  .features-list{
+  .features-list {
     flex-direction: column;
     margin: 0;
   }
 
-  .feature-heading{
+  .feature-heading {
     height: 100px;
   }
 
@@ -550,7 +546,7 @@ nav{
 
   .testimonial-content {
     height: 570px;
-   }
+  }
 
   .testimonial-feedback {
     height: 550px;
@@ -569,8 +565,8 @@ nav{
     text-align: center;
   }
 
-  .cta button{
-    padding: 8px 10px ;
+  .cta button {
+    padding: 8px 10px;
   }
 
   .site-footer {
@@ -592,11 +588,11 @@ nav{
     margin-top: 20px;
   }
 
-  .site-footer .company-logo{
+  .site-footer .company-logo {
     padding-left: 38px;
   }
 
-  .footer-list-1{
+  .footer-list-1 {
     padding-top: 10px;
   }
 
@@ -608,7 +604,9 @@ nav{
     gap: 6px;
   }
 
-  .footer-list-1 li, .footer-list-2 li, .footer-list-3 li{
+  .footer-list-1 li,
+  .footer-list-2 li,
+  .footer-list-3 li {
     padding-top: 8px;
   }
 
@@ -625,11 +623,9 @@ nav{
   }
 }
 
-
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media (min-width: 600px) {
-
   nav {
     height: 125px;
     flex-direction: column;
@@ -645,7 +641,7 @@ nav{
   }
 
   .company-logo {
-    padding-top:  8px;
+    padding-top: 8px;
     padding-left: 0;
   }
 
@@ -663,7 +659,7 @@ nav{
   .hero {
     height: 617px;
     max-width: 100%;
-    padding: 50px 90px ;
+    padding: 50px 90px;
     margin-top: 25px;
   }
 
@@ -679,18 +675,18 @@ nav{
   .hero-header h1 {
     height: 300px;
     font-size: 56px;
-    line-height:74px ;
-   }
+    line-height: 74px;
+  }
 
-  .mobile-screenshot{
+  .mobile-screenshot {
     padding-top: 0px;
   }
 
-  .iphonex-image{
+  .iphonex-image {
     top: 12px;
   }
 
-  .iphonex-image img{
+  .iphonex-image img {
     width: 180px;
   }
 
@@ -698,12 +694,12 @@ nav{
     top: 523px;
   }
 
-  .screen-image img{
+  .screen-image img {
     width: 154px;
   }
 
   .mask-image svg {
-    width:400px;
+    width: 400px;
     height: 120px;
   }
 
@@ -712,7 +708,7 @@ nav{
     padding: 50px 90px;
   }
 
-  .feature-heading{
+  .feature-heading {
     margin-top: 0;
   }
 
@@ -722,7 +718,7 @@ nav{
     padding-top: 10px;
   }
 
-  .feature-heading h2{
+  .feature-heading h2 {
     font-size: 34px;
     line-height: 55px;
   }
@@ -756,8 +752,8 @@ nav{
 
   .cta h2 {
     height: 220px;
-    font-weight: 40px ;
-    line-height: 60px ;
+    font-weight: 40px;
+    line-height: 60px;
   }
 
   .cta button {
@@ -770,7 +766,7 @@ nav{
     flex-direction: column;
   }
 
-  .site-footer .company-logo{
+  .site-footer .company-logo {
     padding-left: 70px;
   }
 
@@ -795,10 +791,10 @@ nav{
 
 /* Responsive Design for Medium devices (landscape tablets, 768px and up) */
 
-@media  (min-width: 768px) {
- nav{
-  height: 140px;
- }
+@media (min-width: 768px) {
+  nav {
+    height: 140px;
+  }
 
   .company-logo {
     margin: 0;
@@ -830,7 +826,7 @@ nav{
     line-height: 78px;
   }
 
-  .mobile-screenshot{
+  .mobile-screenshot {
     padding-top: 0px;
   }
 
@@ -838,7 +834,7 @@ nav{
     width: 210px;
   }
 
-  .iphonex-image{
+  .iphonex-image {
     top: 90px;
   }
 
@@ -846,14 +842,13 @@ nav{
     top: 513px;
   }
 
-  .screen-image img{
+  .screen-image img {
     width: 180px;
-
   }
 
-  .mask-image svg{
-    width: 100% ;
- }
+  .mask-image svg {
+    width: 100%;
+  }
 
   .company-feature {
     height: 730px;
@@ -865,7 +860,7 @@ nav{
     margin: 0px;
   }
 
-  .feature-heading h2{
+  .feature-heading h2 {
     font-size: 41px;
   }
 
@@ -902,15 +897,15 @@ nav{
     font-size: 40px;
   }
 
-  .cta button{
+  .cta button {
     margin: 0;
   }
 
-  .site-footer{
+  .site-footer {
     padding: 50px 100px 0px 100px;
   }
 
-  .site-footer .company-logo{
+  .site-footer .company-logo {
     justify-content: center;
     justify-self: center;
   }
@@ -918,137 +913,132 @@ nav{
   .footer-list {
     height: auto;
     padding: 50px 25px;
-
   }
 
   .sub-footer {
     justify-content: space-around;
   }
-  .sub-footer p{
+  .sub-footer p {
     padding: 0;
   }
 }
 
-
 /*Responsive Design for Large devices (laptops/desktops, 1024px and up) */
 
 @media (min-width: 1024px) {
-
-  nav{
+  nav {
     flex-direction: row;
     padding: 0px 110px;
     height: 72px;
   }
 
-  .company-logo{
+  .company-logo {
     padding: 0;
     margin: 0;
   }
 
-  .hero{
-   padding: 100px 100px;
-   height: 650px;
+  .hero {
+    padding: 100px 100px;
+    height: 650px;
   }
 
-  .mobile-screenshot{
+  .mobile-screenshot {
     margin-top: 40px;
   }
 
-  .iphonex-image{
+  .iphonex-image {
     top: 65px;
-   }
+  }
 
-  .iphonex-image img{
+  .iphonex-image img {
     width: 250px;
   }
 
-  .screen-image{
+  .screen-image {
     top: 580px;
-   }
+  }
 
-  .screen-image img{
+  .screen-image img {
     width: 215px;
   }
 
-  .hero-header{
-    height:360px ;
+  .hero-header {
+    height: 360px;
     gap: 32px;
   }
 
-  .hero-header h1{
-    height:290px ;
+  .hero-header h1 {
+    height: 290px;
     font-size: 72px;
     line-height: 96px;
   }
 
-  .company-feature{
+  .company-feature {
     padding: 70px 100px;
     height: 550px;
     margin-top: 40px;
   }
 
-  .features-list{
+  .features-list {
     flex-direction: row;
     flex-wrap: wrap;
     height: 450px;
   }
 
-  .testimonial{
+  .testimonial {
     flex-direction: row;
     height: 250px;
   }
 
-  .client-detail{
-     align-self: flex-end;
-     }
+  .client-detail {
+    align-self: flex-end;
+  }
 
   .cta {
     height: 220px;
     padding: 50px 250px;
   }
 
-  .cta h2{
+  .cta h2 {
     height: 125px;
     font-size: 44px;
     line-height: 62px;
   }
 
-  .site-footer{
+  .site-footer {
     padding: 0;
     height: 450px;
-   }
+  }
 
-
-  .footer-list{
+  .footer-list {
     padding: 0;
     padding-left: 380px;
     margin-top: -20px;
   }
 
-  .site-footer .company-logo{
+  .site-footer .company-logo {
     padding-left: 100px;
     justify-content: flex-start;
     justify-self: flex-start;
   }
 
-  .sub-footer{
+  .sub-footer {
     margin-top: 100px;
     justify-content: flex-start;
   }
 
-  .sub-footer p{
+  .sub-footer p {
     padding-left: 100px;
   }
 
-  .socialmedia-links{
+  .socialmedia-links {
     padding-left: 330px;
   }
 }
 
-
 /*Responsive Design for Extra large devices (large laptops and desktops, 1200px and up) */
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
   nav {
     display: flex;
     justify-content: space-between;
@@ -1172,7 +1162,7 @@ nav{
     top: 0px;
   }
 
-  .iphonex-image img{
+  .iphonex-image img {
     width: 280px;
   }
 
@@ -1182,7 +1172,7 @@ nav{
     z-index: 2;
   }
 
-  .screen-image img{
+  .screen-image img {
     width: 243px;
   }
 
@@ -1192,7 +1182,7 @@ nav{
     bottom: -7px;
   }
 
-  .mask-image{
+  .mask-image {
   }
 
   .company-feature {
@@ -1383,7 +1373,7 @@ nav{
     height: 28px;
     padding-top: 24px;
     padding-left: 165px;
-    }
+  }
 
   .footer-list {
     height: 240px;
@@ -1470,7 +1460,7 @@ nav{
     line-height: 24px;
     color: #d9dbe1;
     padding-left: 165px;
-   }
+  }
 
   .socialmedia-links {
     width: 144px;
@@ -1488,12 +1478,11 @@ nav{
     height: 24px;
     background-color: rgba(255, 255, 255, 0.1);
   }
-
 }
 
 /* Responsive Design for 1400px and above */
 
-@media (min-width:1400px) {
+@media (min-width: 1400px) {
   nav {
     display: flex;
     justify-content: space-between;
@@ -1621,9 +1610,9 @@ nav{
     bottom: -7px;
     z-index: 1;
     align-items: center;
-    }
+  }
 
-  .mask-image svg{
+  .mask-image svg {
     width: 1200px;
     height: 165px;
     align-items: center;
@@ -1646,7 +1635,7 @@ nav{
   }
 
   .features-list {
-   height: 192px;
+    height: 192px;
     display: flex;
     gap: 30px;
     margin-top: 48px;
@@ -1918,5 +1907,4 @@ nav{
     height: 24px;
     background-color: rgba(255, 255, 255, 0.1);
   }
-
 }
