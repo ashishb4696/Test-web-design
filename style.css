@@ -16,7 +16,6 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
-  height: 72px;
   align-items: center;
   box-shadow: 0 1px 0 0 #e5e9f2;
 }
@@ -83,7 +82,6 @@ nav {
 /* Navigation ends */
 
 .hero {
-  height: 862px;
   padding-top: 165px;
   margin-inline: auto;
   border-bottom: 1px solid #f4f5f7;
@@ -92,7 +90,6 @@ nav {
 }
 
 .hero-header {
-  height: 276px;
   gap: 32px;
   display: flex;
   flex-direction: column;
@@ -121,7 +118,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .iphonex-image {
@@ -144,12 +141,10 @@ nav {
 }
 
 .company-feature {
-  height: 432px;
   padding: 64px 165px 64px 165px;
 }
 
 .feature-heading {
-  height: 64px;
   margin-top: 36px;
 }
 
@@ -160,7 +155,6 @@ nav {
 }
 
 .features-list {
-  height: 192px;
   display: flex;
   gap: 30px;
   margin-top: 48px;
@@ -233,11 +227,9 @@ nav {
 }
 
 .testimonial {
-  height: 312px;
   padding: 64px 165px;
   display: flex;
   gap: 30px;
-  margin-top: 48px;
 }
 
 .client-detail {
@@ -270,7 +262,6 @@ nav {
 }
 
 .testimonial-content {
-  height: 184px;
   display: flex;
 }
 
@@ -282,7 +273,6 @@ nav {
 }
 
 .testimonial-feedback {
-  height: 160px;
   font-weight: 400;
   font-size: 18px;
   line-height: 32px;
@@ -291,7 +281,6 @@ nav {
 }
 
 .cta {
-  height: 344px;
   padding: 64px 355px;
   display: flex;
   flex-direction: column;
@@ -299,7 +288,6 @@ nav {
 }
 
 .cta h2 {
-  height: 128px;
   font-weight: 800;
   font-size: 48px;
   line-height: 64px;
@@ -320,31 +308,24 @@ nav {
 }
 
 .site-footer {
-  height: 434px;
   background-color: #0b0d17;
 }
-.footer-logo {
-  background-color: red;
-}
 
-.site-footer .company-logo {
-  width: 120px;
-  height: 28px;
-  padding-top: 24px;
+.footer {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-list {
-  height: 240px;
   display: flex;
   gap: 30px;
-  padding-left: 735px;
+  padding-right: 165px;
 }
 
 .footer-list-1,
 .footer-list-2,
 .footer-list-3 {
   width: 160px;
-  height: 240px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -403,7 +384,6 @@ span.font-nanum.new-feature {
 
 .sub-footer {
   height: 64px;
-  margin-top: 100px;
   display: flex;
   align-items: center;
   background-color: #0b0d17;
@@ -423,7 +403,7 @@ span.font-nanum.new-feature {
   width: 144px;
   height: 24px;
   display: flex;
-  gap: 24px;
+  gap: 16px;
   padding-left: 695px;
 }
 
@@ -434,6 +414,51 @@ span.font-nanum.new-feature {
   width: 24px;
   height: 24px;
   background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.pattern-1 {
+  margin-top: -70px;
+  margin-left: -26px;
+  opacity: 5%;
+}
+
+.pattern-2 {
+  opacity: 5%;
+}
+
+.pattern-3 {
+  margin-top: 55px;
+  margin-left: -120px;
+  opacity: 5%;
+}
+
+.footer-logo {
+  right: 10px;
+  top: 15px;
+  position: absolute;
+}
+
+.footer-background-logo {
+  background-color: #0b0d17;
+  position: relative;
+}
+
+.footer {
+  background-color: #0b0d17;
 }
 
 /* Responsive design for Extra small devices (phones, 600px and down) */
@@ -441,7 +466,6 @@ span.font-nanum.new-feature {
 @media (max-width: 600px) {
   nav {
     flex-direction: column;
-    height: 100px;
     justify-content: center;
     gap: 6px;
   }
@@ -488,12 +512,9 @@ span.font-nanum.new-feature {
     padding: 6px 8px;
   }
 
-  .mobile-screenshot {
-    padding: 0;
-  }
+  
 
   .iphonex-image {
-    top: 76px;
   }
 
   .iphonex-image img {
@@ -514,7 +535,6 @@ span.font-nanum.new-feature {
   }
 
   .company-feature {
-    height: 850px;
     padding: 30px 50px;
   }
 
@@ -523,10 +543,7 @@ span.font-nanum.new-feature {
     margin: 0;
   }
 
-  .feature-heading {
-    height: 100px;
-  }
-
+ 
   .feature-heading h2 {
     font-size: 28px;
     line-height: 46px;
@@ -539,27 +556,17 @@ span.font-nanum.new-feature {
   }
 
   .testimonial {
-    height: 640px;
     padding: 20px 30px;
     flex-direction: column;
   }
 
-  .testimonial-content {
-    height: 570px;
-  }
-
-  .testimonial-feedback {
-    height: 550px;
-  }
-
+ 
   .cta {
-    height: 300px;
     padding: 30px 60px;
     gap: 30px;
   }
 
   .cta h2 {
-    height: 205px;
     font-size: 32px;
     line-height: 56px;
     text-align: center;
@@ -570,16 +577,17 @@ span.font-nanum.new-feature {
   }
 
   .site-footer {
-    height: 865px;
-    padding: 20px 30px;
+  }
+
+  .footer{
+    flex-direction: column;
   }
 
   .footer-list {
     padding: 20px 30px;
-    height: 700px;
     flex-flow: wrap;
-    gap: 0px;
-  }
+    margin-top: 20px; 
+   }
 
   .sub-footer {
     padding-left: 10px;
@@ -588,13 +596,7 @@ span.font-nanum.new-feature {
     margin-top: 20px;
   }
 
-  .site-footer .company-logo {
-    padding-left: 38px;
-  }
-
-  .footer-list-1 {
-    padding-top: 10px;
-  }
+ 
 
   .footer-list-1,
   .footer-list-2,
@@ -621,13 +623,28 @@ span.font-nanum.new-feature {
     margin: 0;
     padding: 0;
   }
+
+  .flex .justify-between, 
+  .flex .flex-col .justify-between 
+  .pattern-3 svg{
+    display: none;
+  }
+
+  .footer-background-logo{
+    max-height: 20px ;
+  }
+
+  .footer-logo{
+    left: 40px;
+  }
+
+  
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
 @media (min-width: 600px) {
   nav {
-    height: 125px;
     flex-direction: column;
     max-width: 100%;
     gap: 10px;
@@ -657,9 +674,9 @@ span.font-nanum.new-feature {
   }
 
   .hero {
-    height: 617px;
+    height: 605px;
     max-width: 100%;
-    padding: 50px 90px;
+    padding: 50px 80px;
     margin-top: 25px;
   }
 
@@ -668,30 +685,23 @@ span.font-nanum.new-feature {
   }
 
   .hero-header {
-    height: 450px;
+    height: 370px;
     gap: 30px;
   }
 
   .hero-header h1 {
-    height: 300px;
+    height: 290px;
     font-size: 56px;
     line-height: 74px;
   }
 
-  .mobile-screenshot {
-    padding-top: 0px;
-  }
-
-  .iphonex-image {
-    top: 12px;
-  }
-
+ 
   .iphonex-image img {
     width: 180px;
   }
 
   .screen-image {
-    top: 523px;
+    top: 510px;
   }
 
   .screen-image img {
@@ -704,8 +714,7 @@ span.font-nanum.new-feature {
   }
 
   .company-feature {
-    height: 800px;
-    padding: 50px 90px;
+    padding: 50px 80px;
   }
 
   .feature-heading {
@@ -725,19 +734,16 @@ span.font-nanum.new-feature {
 
   .testimonial {
     max-width: 100%;
-    height: 330px;
-    padding: 50px 90px;
+    padding: 50px 80px;
     margin: 0;
   }
 
   .testimonial-content {
-    height: 240px;
     max-width: 100%;
   }
 
   .testimonial-feedback {
     max-width: 100%;
-    height: 220px;
   }
 
   .client-detail {
@@ -746,12 +752,10 @@ span.font-nanum.new-feature {
 
   .cta {
     padding: 50px 140px;
-    height: 300px;
     gap: 30px;
   }
 
   .cta h2 {
-    height: 220px;
     font-weight: 40px;
     line-height: 60px;
   }
@@ -761,41 +765,46 @@ span.font-nanum.new-feature {
   }
 
   .site-footer {
-    height: 460px;
     max-width: 100%;
     flex-direction: column;
   }
 
-  .site-footer .company-logo {
-    padding-left: 70px;
+  .footer-logo{
+    right: 0px;
+    left: 60px;
   }
 
   .footer-list {
-    padding: 50px 70px;
+    padding: 70px 30px;
+    gap: 20px;
   }
 
   .sub-footer {
-    width: 100%;
     margin: 0;
-    gap: 60px;
+    justify-content: space-around;
+    padding: 0;
   }
 
-  .sub-footer p {
-    padding-left: 70px;
-  }
+ 
 
   .socialmedia-links {
-    padding: 0px;
+    padding: 0;
+    
+  }
+
+  .flex .justify-between, .flex .flex-col .justify-between{
+    display: none;
+  }
+
+  .footer-background-logo{
+    max-height: 20px ;
   }
 }
 
 /* Responsive Design for Medium devices (landscape tablets, 768px and up) */
 
 @media (min-width: 768px) {
-  nav {
-    height: 140px;
-  }
-
+ 
   .company-logo {
     margin: 0;
   }
@@ -813,21 +822,20 @@ span.font-nanum.new-feature {
 
   .hero {
     padding: 60px 90px;
-    height: 620px;
+    height: 570px;
   }
 
   .hero-header {
-    height: 350px;
+    height: 310px;
   }
 
   .hero-header h1 {
-    height: 240px;
+    height: 230px;
     font-size: 62px;
     line-height: 78px;
   }
 
   .mobile-screenshot {
-    padding-top: 0px;
   }
 
   .iphonex-image img {
@@ -835,11 +843,10 @@ span.font-nanum.new-feature {
   }
 
   .iphonex-image {
-    top: 90px;
   }
 
   .screen-image {
-    top: 513px;
+    top: 462px;
   }
 
   .screen-image img {
@@ -851,7 +858,6 @@ span.font-nanum.new-feature {
   }
 
   .company-feature {
-    height: 730px;
     padding: 50px 100px;
   }
 
@@ -867,33 +873,20 @@ span.font-nanum.new-feature {
   .features-list {
     flex-direction: row;
     flex-wrap: wrap;
-    height: 610px;
     max-width: 100%;
     margin: 0;
   }
 
   .testimonial {
     padding: 50px 100px;
-    height: 300px;
     margin: 0;
-  }
-
-  .testimonial-content {
-    height: 250px;
-  }
-
-  .testimonial-feedback {
-    height: 230px;
-    max-width: 100%;
   }
 
   .cta {
     padding: 50px 180px;
-    height: 240px;
   }
 
   .cta h2 {
-    height: 165px;
     font-size: 40px;
   }
 
@@ -901,26 +894,38 @@ span.font-nanum.new-feature {
     margin: 0;
   }
 
-  .site-footer {
-    padding: 50px 100px 0px 100px;
+ .footer{
+    flex-direction: column;
   }
 
-  .site-footer .company-logo {
-    justify-content: center;
-    justify-self: center;
+  .flex .justify-between, .flex .flex-col .justify-between{
+    display: none;
+  }
+
+  .footer-background-logo{
+    max-height: 20px ;
+  }
+
+  .footer-logo{
+    right: 0;
+    margin-left: 140px;
+    left:0px ;
   }
 
   .footer-list {
     height: auto;
-    padding: 50px 25px;
+    padding: 0;
+    margin: 50px 100px;
+    justify-content: flex-end;
   }
 
   .sub-footer {
     justify-content: space-around;
   }
+
   .sub-footer p {
-    padding: 0;
-  }
+    padding-left:  50px;
+     }
 }
 
 /*Responsive Design for Large devices (laptops/desktops, 1024px and up) */
@@ -939,15 +944,14 @@ span.font-nanum.new-feature {
 
   .hero {
     padding: 100px 100px;
-    height: 650px;
+    height: 635px;
   }
 
+
   .mobile-screenshot {
-    margin-top: 40px;
   }
 
   .iphonex-image {
-    top: 65px;
   }
 
   .iphonex-image img {
@@ -955,7 +959,7 @@ span.font-nanum.new-feature {
   }
 
   .screen-image {
-    top: 580px;
+    top: 565px;
   }
 
   .screen-image img {
@@ -963,7 +967,7 @@ span.font-nanum.new-feature {
   }
 
   .hero-header {
-    height: 360px;
+    height: 370px;
     gap: 32px;
   }
 
@@ -975,19 +979,16 @@ span.font-nanum.new-feature {
 
   .company-feature {
     padding: 70px 100px;
-    height: 550px;
     margin-top: 40px;
   }
 
   .features-list {
     flex-direction: row;
     flex-wrap: wrap;
-    height: 450px;
   }
 
   .testimonial {
     flex-direction: row;
-    height: 250px;
   }
 
   .client-detail {
@@ -995,25 +996,25 @@ span.font-nanum.new-feature {
   }
 
   .cta {
-    height: 220px;
     padding: 50px 250px;
   }
 
   .cta h2 {
-    height: 125px;
     font-size: 44px;
     line-height: 62px;
   }
 
   .site-footer {
     padding: 0;
-    height: 450px;
+  }
+
+  .footer-logo{
+    margin-left: 100px;
   }
 
   .footer-list {
     padding: 0;
-    padding-left: 380px;
-    margin-top: -20px;
+    justify-content: flex-end;
   }
 
   .site-footer .company-logo {
@@ -1024,16 +1025,16 @@ span.font-nanum.new-feature {
 
   .sub-footer {
     margin-top: 100px;
-    justify-content: flex-start;
+    justify-content: space-around;
+
   }
 
-  .sub-footer p {
-    padding-left: 100px;
+  .sub-footer p{
+    padding: 0;
   }
 
-  .socialmedia-links {
-    padding-left: 330px;
-  }
+ 
+ 
 }
 
 /*Responsive Design for Extra large devices (large laptops and desktops, 1200px and up) */
@@ -1042,7 +1043,6 @@ span.font-nanum.new-feature {
   nav {
     display: flex;
     justify-content: space-between;
-    height: 72px;
     align-items: center;
     padding: 0;
     box-shadow: 0 1px 0 0 #e5e9f2;
@@ -1070,7 +1070,6 @@ span.font-nanum.new-feature {
   }
 
   .company-name {
-    height: 18.49px;
     color: #0b0d17;
     font-size: 18px;
     font-weight: 800;
@@ -1159,7 +1158,6 @@ span.font-nanum.new-feature {
   .iphonex-image {
     position: relative;
     z-index: 3;
-    top: 0px;
   }
 
   .iphonex-image img {
@@ -1186,7 +1184,6 @@ span.font-nanum.new-feature {
   }
 
   .company-feature {
-    height: 304px;
     padding: 64px 165px 64px 165px;
     margin: 0;
   }
@@ -1203,11 +1200,9 @@ span.font-nanum.new-feature {
   }
 
   .features-list {
-    height: 192px;
     display: flex;
     flex-wrap: nowrap;
     gap: 30px;
-    margin-top: 48px;
   }
 
   .feature-list-1,
@@ -1276,11 +1271,9 @@ span.font-nanum.new-feature {
   }
 
   .testimonial {
-    height: 184px;
     padding: 64px 165px;
     display: flex;
     gap: 30px;
-    margin-top: 48px;
   }
 
   .client-detail {
@@ -1313,7 +1306,6 @@ span.font-nanum.new-feature {
   }
 
   .testimonial-content {
-    height: 184px;
     display: flex;
   }
 
@@ -1325,7 +1317,6 @@ span.font-nanum.new-feature {
   }
 
   .testimonial-feedback {
-    height: 160px;
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
@@ -1334,7 +1325,6 @@ span.font-nanum.new-feature {
   }
 
   .cta {
-    height: 230px;
     padding: 64px 340px;
     display: flex;
     flex-direction: column;
@@ -1342,7 +1332,6 @@ span.font-nanum.new-feature {
   }
 
   .cta h2 {
-    height: 155px;
     font-weight: 800;
     font-size: 48px;
     line-height: 64px;
@@ -1364,7 +1353,6 @@ span.font-nanum.new-feature {
   }
 
   .site-footer {
-    height: 434px;
     background-color: #0b0d17;
   }
 
@@ -1376,7 +1364,6 @@ span.font-nanum.new-feature {
   }
 
   .footer-list {
-    height: 240px;
     display: flex;
     gap: 30px;
     padding-left: 660px;
@@ -1386,7 +1373,6 @@ span.font-nanum.new-feature {
   .footer-list-2,
   .footer-list-3 {
     width: 160px;
-    height: 240px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -1486,7 +1472,6 @@ span.font-nanum.new-feature {
   nav {
     display: flex;
     justify-content: space-between;
-    height: 72px;
     align-items: center;
     box-shadow: 0 1px 0 0 #e5e9f2;
   }
@@ -1619,7 +1604,6 @@ span.font-nanum.new-feature {
   }
 
   .company-feature {
-    height: 304px;
     padding: 64px 165px 64px 165px;
   }
 
@@ -1635,10 +1619,8 @@ span.font-nanum.new-feature {
   }
 
   .features-list {
-    height: 192px;
     display: flex;
     gap: 30px;
-    margin-top: 48px;
   }
 
   .feature-list-1,
@@ -1708,11 +1690,9 @@ span.font-nanum.new-feature {
   }
 
   .testimonial {
-    height: 184px;
     padding: 64px 165px;
     display: flex;
     gap: 30px;
-    margin-top: 48px;
   }
 
   .client-detail {
@@ -1745,7 +1725,6 @@ span.font-nanum.new-feature {
   }
 
   .testimonial-content {
-    height: 184px;
     display: flex;
   }
 
@@ -1757,7 +1736,6 @@ span.font-nanum.new-feature {
   }
 
   .testimonial-feedback {
-    height: 160px;
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
@@ -1766,7 +1744,6 @@ span.font-nanum.new-feature {
   }
 
   .cta {
-    height: 216px;
     padding: 64px 355px;
     display: flex;
     flex-direction: column;
@@ -1774,7 +1751,6 @@ span.font-nanum.new-feature {
   }
 
   .cta h2 {
-    height: 128px;
     font-weight: 800;
     font-size: 48px;
     line-height: 64px;
@@ -1795,28 +1771,23 @@ span.font-nanum.new-feature {
   }
 
   .site-footer {
-    height: 434px;
     background-color: #0b0d17;
   }
 
-  .site-footer .company-logo {
-    width: 120px;
-    height: 28px;
-    padding-top: 24px;
-  }
 
   .footer-list {
-    height: 240px;
     display: flex;
     gap: 30px;
-    padding-left: 735px;
+    padding-right: 165px;
+    padding-left: 0;
+    padding-top: 15px;
+    margin: 0;
   }
 
   .footer-list-1,
   .footer-list-2,
   .footer-list-3 {
     width: 160px;
-    height: 240px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -1875,12 +1846,16 @@ span.font-nanum.new-feature {
 
   .sub-footer {
     height: 64px;
-    margin-top: 100px;
     display: flex;
     align-items: center;
     background-color: #0b0d17;
     background-blend-mode: multiply;
-  }
+    margin-top: -64px;
+    position: absolute; 
+    justify-content: space-between;
+    width: 100%;
+   
+ }
 
   .sub-footer p {
     height: 24px;
@@ -1889,22 +1864,81 @@ span.font-nanum.new-feature {
     font-size: 14px;
     line-height: 24px;
     color: #d9dbe1;
+ 
   }
 
   .socialmedia-links {
     width: 144px;
     height: 24px;
     display: flex;
-    gap: 24px;
-    padding-left: 635px;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    margin-right: 165px;
+
+
   }
 
   .socialmedia-instagram,
   .socialmedia-dribble,
   .socialmedia-youtube,
   .socialmedia-twitter {
-    width: 24px;
-    height: 24px;
     background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    text-align: center;
   }
+
+  .flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .justify-between {
+    justify-content: space-between;
+  }
+
+ 
+  .footer-background-logo {
+    background-color: #0b0d17;
+    position: relative;
+    max-height: 100%;
+  }
+  
+  .footer {
+    background-color: #0b0d17;
+    flex-direction: row;
+  }
+
+  .flex .justify-between, 
+  .flex .flex-col .justify-between 
+  .pattern-3 svg{
+    display: flex;
+  }
+
+  .pattern-1 {
+    margin-top: -70px;
+    margin-left: -26px;
+    opacity: 5%;
+  }
+  
+  .pattern-2 {
+    opacity: 5%;
+  }
+  
+  .pattern-3 {
+    margin-top: 55px;
+    margin-left: -120px;
+    opacity: 5%;
+  }
+  
+  .footer-logo {
+    right: 10px;
+    top: 15px;
+    position: absolute;
+    margin-left: 165px;
+  }
+  
 }
