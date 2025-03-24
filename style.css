@@ -457,9 +457,7 @@ span.font-nanum.new-feature {
   position: relative;
 }
 
-.footer {
-  background-color: #0b0d17;
-}
+
 
 /* Responsive design for Extra small devices (phones, 600px and down) */
 
@@ -468,6 +466,8 @@ span.font-nanum.new-feature {
     flex-direction: column;
     justify-content: center;
     gap: 6px;
+    flex-direction: row;
+    justify-content: space-around;
   }
 
   .company-logo {
@@ -475,12 +475,42 @@ span.font-nanum.new-feature {
   }
 
   .menu {
-    margin: 0;
-    gap: 6px;
+    display: none;
   }
 
-  .menu a {
-    font-size: 11px;
+  .dropdown-btn img {
+    width: 24px;
+    height: 24px;
+    display: block;
+  }
+
+  .dropdown-btn {
+    background-color: peru;
+    padding: 8px 20px;
+    cursor: pointer;
+    border: none;
+  }
+
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: rgb(128, 111, 111);
+    z-index: 1;
+  }
+
+  .dropdown-content a{
+    color: wheat;
+    padding: 2px 4px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown:hover .dropdown-content{
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #b0c0c0;
   }
 
   .nav-button {
@@ -512,11 +542,6 @@ span.font-nanum.new-feature {
     padding: 6px 8px;
   }
 
-  
-
-  .iphonex-image {
-  }
-
   .iphonex-image img {
     width: 115px;
   }
@@ -543,7 +568,6 @@ span.font-nanum.new-feature {
     margin: 0;
   }
 
- 
   .feature-heading h2 {
     font-size: 28px;
     line-height: 46px;
@@ -560,8 +584,11 @@ span.font-nanum.new-feature {
     flex-direction: column;
   }
 
- 
-  .cta {
+  .client-detail{
+    align-self: center;
+  }
+
+   .cta {
     padding: 30px 60px;
     gap: 30px;
   }
@@ -574,9 +601,6 @@ span.font-nanum.new-feature {
 
   .cta button {
     padding: 8px 10px;
-  }
-
-  .site-footer {
   }
 
   .footer{
@@ -595,8 +619,6 @@ span.font-nanum.new-feature {
     flex-direction: column;
     margin-top: 20px;
   }
-
- 
 
   .footer-list-1,
   .footer-list-2,
@@ -637,7 +659,6 @@ span.font-nanum.new-feature {
   .footer-logo{
     left: 40px;
   }
-
   
 }
 
@@ -673,6 +694,10 @@ span.font-nanum.new-feature {
     padding: 8px 16px;
   }
 
+  .dropdown{
+    display: none;
+  }
+
   .hero {
     height: 605px;
     max-width: 100%;
@@ -695,7 +720,6 @@ span.font-nanum.new-feature {
     line-height: 74px;
   }
 
- 
   .iphonex-image img {
     width: 180px;
   }
@@ -785,11 +809,8 @@ span.font-nanum.new-feature {
     padding: 0;
   }
 
- 
-
   .socialmedia-links {
-    padding: 0;
-    
+    padding: 0;   
   }
 
   .flex .justify-between, .flex .flex-col .justify-between{
@@ -820,6 +841,10 @@ span.font-nanum.new-feature {
     margin-bottom: 5px;
   }
 
+  .dropdown{
+    display: none;
+  }
+
   .hero {
     padding: 60px 90px;
     height: 570px;
@@ -835,14 +860,8 @@ span.font-nanum.new-feature {
     line-height: 78px;
   }
 
-  .mobile-screenshot {
-  }
-
   .iphonex-image img {
     width: 210px;
-  }
-
-  .iphonex-image {
   }
 
   .screen-image {
@@ -942,16 +961,13 @@ span.font-nanum.new-feature {
     margin: 0;
   }
 
+  .dropdown{
+    display: none;
+  }
+
   .hero {
     padding: 100px 100px;
     height: 635px;
-  }
-
-
-  .mobile-screenshot {
-  }
-
-  .iphonex-image {
   }
 
   .iphonex-image img {
@@ -1026,14 +1042,11 @@ span.font-nanum.new-feature {
   .sub-footer {
     margin-top: 100px;
     justify-content: space-around;
-
   }
 
   .sub-footer p{
     padding: 0;
-  }
-
- 
+  } 
  
 }
 
@@ -1104,6 +1117,10 @@ span.font-nanum.new-feature {
     padding: 10px 20px;
     margin-bottom: 0;
     margin-right: 160px;
+  }
+
+  .dropdown{
+    display: none;
   }
 
   /* Navigation ends */
@@ -1178,9 +1195,6 @@ span.font-nanum.new-feature {
     position: absolute;
     z-index: 1;
     bottom: -7px;
-  }
-
-  .mask-image {
   }
 
   .company-feature {
@@ -1535,7 +1549,9 @@ span.font-nanum.new-feature {
     cursor: pointer;
   }
 
-  /* Navigation ends */
+  .dropdown{
+    display: none;
+  }
 
   .hero {
     height: 695px;
@@ -1582,6 +1598,7 @@ span.font-nanum.new-feature {
   .iphonex-image {
     position: relative;
     z-index: 3;
+    max-width: 278px;
   }
 
   .screen-image {
@@ -1853,8 +1870,7 @@ span.font-nanum.new-feature {
     margin-top: -64px;
     position: absolute; 
     justify-content: space-between;
-    width: 100%;
-   
+    width: 100%;  
  }
 
   .sub-footer p {
@@ -1864,7 +1880,6 @@ span.font-nanum.new-feature {
     font-size: 14px;
     line-height: 24px;
     color: #d9dbe1;
- 
   }
 
   .socialmedia-links {
@@ -1875,8 +1890,6 @@ span.font-nanum.new-feature {
     margin: 0;
     padding: 0;
     margin-right: 165px;
-
-
   }
 
   .socialmedia-instagram,
@@ -1900,7 +1913,6 @@ span.font-nanum.new-feature {
     justify-content: space-between;
   }
 
- 
   .footer-background-logo {
     background-color: #0b0d17;
     position: relative;
